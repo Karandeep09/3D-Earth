@@ -42,7 +42,7 @@ animate();
 
 function getBox(w, h, d) {
 var geometry = new THREE.SphereGeometry(w, h, d);
-var texture = new THREE.TextureLoader().load('http://s3-us-west-2.amazonaws.com/s.cdpn.io/1206469/earthmap1k.jpg');
+var texture = new THREE.TextureLoader().load('earthmap.jpg');
  /*'http://s3-us-west-2.amazonaws.com/s.cdpn.io/1206469/earthmap1k.jpg'*/ 
 // immediately use the texture for material creation 
 var material = new THREE.MeshBasicMaterial( { map: texture } );
